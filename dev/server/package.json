@@ -1,13 +1,16 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A REST server for bucketListApp",
   "main": "index.js",
+  "author": "Wilson Novido, as illustrated by Arvind Ravulavaru on his blog",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },  
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^0.8.3",
     "mongojs": "^1.0.2",
